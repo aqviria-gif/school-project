@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ჩემი მაღაზია 🛍️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- კალათა -->
+    <div class="cart" id="cart-button">
+        🛒 კალათა: <span id="cart-count">0</span>
+    </div>
+
+    <!-- კალათის ფანჯარა -->
+    <div class="cart-box" id="cart-box">
+        <h2>🛒 ჩემი კალათა</h2>
+
+        <div id="cart-items"></div>
+
+        <div class="total">
+            ჯამი: <span id="cart-total">0.00</span> ₾
+        </div>
+
+        <button id="clear-cart" class="clear-button">
+            🗑️ კალათის გასუფთავება
+        </button>
+    </div>
+
+
+    <header>
+        <h1>🛍️ ჩემი მაღაზია ✨</h1>
+        <p>აირჩიე სასურველი პროდუქტი 💖</p>
+    </header>
+
+
+    <main class="products">
+
+        <!-- ჩანთა -->
+        <div class="card">
+            <div class="badge">NEW</div>
+
+            <img src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=600&q=80">
+
+            <h2>ლამაზი ჩანთა 👜</h2>
+
+            <p>ლამაზი და თანამედროვე ჩანთა ყოველდღიური გამოყენებისთვის.</p>
+
+            <div class="price">49.99 ₾</div>
+
+            <button class="buy-button">🛒 ყიდვა</button>
+        </div>
+
+
+        <!-- სათვალე -->
+        <div class="card">
+            <div class="badge">SALE</div>
+
+            <img src="https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=600&q=80">
+
+            <h2>მზის სათვალე 😎</h2>
+
+            <p>თანამედროვე სათვალე ზაფხულისა და მზიანი დღეებისთვის.</p>
+
+            <div class="price">29.99 ₾</div>
+
+            <button class="buy-button">🛒 ყიდვა</button>
+        </div>
+
+
+        <!-- ტანსაცმელი -->
+        <div class="card">
+            <div class="badge">NEW</div>
+
+            <img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=600&q=80">
+
+            <h2>მოდური ტანსაცმელი 👕</h2>
+
+            <p>თანამედროვე და კომფორტული ტანსაცმელი ყოველდღე.</p>
+
+            <div class="price">39.99 ₾</div>
+
+            <button class="buy-button">🛒 ყიდვა</button>
+        </div>
+
+
+        <!-- კაბა -->
+        <div class="card">
+            <div class="badge">SALE</div>
+
+            <img src="https://images.unsplash.com/photo-1566174053879-31528523f8ae?auto=format&fit=crop&w=600&q=80">
+
+            <h2>ლამაზი კაბა 👗</h2>
+
+            <p>ელეგანტური კაბა განსაკუთრებული დღეებისთვის.</p>
+
+            <div class="price">59.99 ₾</div>
+
+            <button class="buy-button">🛒 ყიდვა</button>
+        </div>
+
+
+        <!-- წიგნი -->
+        <div class="card">
+            <div class="badge">NEW</div>
+
+            <img src="https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&fit=crop&w=600&q=80">
+
+            <h2>საინტერესო წიგნი 📚</h2>
+
+            <p>საინტერესო წიგნი სასიამოვნო კითხვისთვის.</p>
+
+            <div class="price">19.99 ₾</div>
+
+            <button class="buy-button">🛒 ყიდვა</button>
+        </div>
+
+
+        <!-- წიგნების ნაკრები -->
+        <div class="card">
+            <div class="badge">SALE</div>
+
+            <img src="https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=600&q=80">
+
+            <h2>წიგნების ნაკრები 📖</h2>
+
+            <p>რამდენიმე საინტერესო წიგნი ერთ ნაკრებში.</p>
+
+            <div class="price">34.99 ₾</div>
+
+            <button class="buy-button">🛒 ყიდვა</button>
+        </div>
+
+
+        <!-- ტკბილეული -->
+        <div class="card">
+            <div class="badge">YUMMY</div>
+
+            <img src="https://images.unsplash.com/photo-1575377427642-087cf684f04d?auto=format&fit=crop&w=600&q=80">
+
+            <h2>ტკბილეული 🍭</h2>
+
+            <p>ფერადი და გემრიელი ტკბილეული.</p>
+
+            <div class="price">9.99 ₾</div>
+
+            <button class="buy-button">🛒 ყიდვა</button>
+        </div>
+
+
+        <!-- შოკოლადი -->
+        <div class="card">
+            <div class="badge">SALE</div>
+
+            <img src="https://images.unsplash.com/photo-1549007994-cb92caebd54b?auto=format&fit=crop&w=600&q=80">
+
+            <h2>შოკოლადი 🍫</h2>
+
+            <p>გემრიელი შოკოლადი ტკბილი მომენტებისთვის.</p>
+
+            <div class="price">7.99 ₾</div>
+
+            <button class="buy-button">🛒 ყიდვა</button>
+        </div>
+
+
+        <!-- სამკაულები -->
+        <div class="card">
+            <div class="badge">NEW</div>
+
+            <img src="https://images.unsplash.com/photo-1611652022419-a9419f74343d?auto=format&fit=crop&w=600&q=80">
+
+            <h2>სამკაულები 💎</h2>
+
+            <p>ლამაზი აქსესუარები შენი სტილისთვის.</p>
+
+            <div class="price">24.99 ₾</div>
+
+            <button class="buy-button">🛒 ყიდვა</button>
+        </div>
+
+
+        <!-- საათი -->
+        <div class="card">
+            <div class="badge">NEW</div>
+
+            <img src="https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&w=600&q=80">
+
+            <h2>მაჯის საათი ⌚</h2>
+
+            <p>ელეგანტური და თანამედროვე საათი.</p>
+
+            <div class="price">44.99 ₾</div>
+
+            <button class="buy-button">🛒 ყიდვა</button>
+        </div>
+
+
+        <!-- საყურეები -->
+        <div class="card">
+            <div class="badge">SALE</div>
+
+            <img src="https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=600&q=80">
+
+            <h2>საყურეები ✨</h2>
+
+            <p>მინიმალისტური და ლამაზი საყურეები.</p>
+
+            <div class="price">14.99 ₾</div>
+
+            <button class="buy-button">🛒 ყიდვა</button>
+        </div>
+
+
+        <!-- ფეხსაცმელი -->
+        <div class="card">
+            <div class="badge">NEW</div>
+
+            <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=600&q=80">
+
+            <h2>სპორტული ფეხსაცმელი 👟</h2>
+
+            <p>კომფორტული ფეხსაცმელი ყოველდღიური გამოყენებისთვის.</p>
+
+            <div class="price">69.99 ₾</div>
+
+            <button class="buy-button">🛒 ყიდვა</button>
+        </div>
+
+    </main>
+
+
+    <footer>
+        💖 მადლობა, რომ ეწვიე ჩემს მაღაზიას!
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
